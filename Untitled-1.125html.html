@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Registration Form</title>
+    <style>
+        /* Apply a plain background color to the body */
+        body {
+            background-color: #e66eb81f; /* Light gray background color */
+            font-family: Arial, sans-serif;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        .form-container {
+            background-color: rgb(248, 243, 243); /* Semi-transparent white background */
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        /* Styling for radio buttons */
+        .gender-group {
+            margin: 10px 0;
+        }
+
+        .gender-group input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Scholarship Registration Form</h1>
+
+        <label><b>Full Name:</b></label>
+        <input type="text"  name="name" placeholder="CONTAIN BLOCK LETTER">
+        <br><br>
+        <label><b>password</b></label>
+            <input type = "password">
+            <br><br>
+    
+        <label><b>Email:</b></label>
+        <input type="email"  name="email">
+        <br><br>
+
+        <label><b>Phone Number:</b></label>
+        <input type="number"  name="phone">
+        <br><br>
+
+        <label><b>Date of Birth:</b></label>
+        <input type="date"  name="dob">
+        <br><br>
+
+        <label><b>Gender:</b></label>
+        <label><b>Male</b></label>
+        <input type="radio"  name="gender" value="female">
+        <label><b>Female</b></label>
+        <input type="radio" name="gender" value="other">
+        <label><b>Other</b></label>
+        <input type="radio"  name="gender" value="male">
+        <br><br>
+
+        <label><b>Address:</b></label>
+        <textarea id="address" name="address"></textarea>
+        <br><br>
+
+        <label><b>Course Applied:</b></label>
+        <input type="text" name="course">
+        <br><br>
+
+        <label><b>Highest Qualification:</b></label>
+        <input type="text" id="qualification" name="qualification">
+        <br><br>
+
+        <label><b>Last Exam Percentage:</b></label>
+        <input type="text" id="marks" name="marks">
+        <br><br>
+
+        <label><b>Annual Family Income:</b></label>
+        <input type="text" id="income" name="income">
+        <br><br>
+
+        <label><b>Upload Required Documents:</b></label>
+        <input type="file" id="documents" name="documents">
+        <br><br>
+
+        <button type="submit"><b>Submit Application</b></button>
+    </fieldset>
+</form>
+
+<br><br>
+
+            </div>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+
+</body>
+</html>
